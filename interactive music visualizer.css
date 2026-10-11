@@ -1,0 +1,38 @@
+body
+ {
+    margin: 0;
+    font-family: sans-serif;
+    background: #111;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(112, 216, 148);
+    /* background-image: url("W.jpeg"); */
+    background-size: cover;
+}
+
+.container 
+{
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#audioUpload
+ {
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid black;
+    width: 80%;
+    max-width: 800px;
+    height: 300px;
+    background: black;
+}
